@@ -1,0 +1,27 @@
+Release 1:
+ * Parse command line arguments
+ * Daemon mode
+ * Store channel and user data in memory
+ * Give scripts access to a complete IRC api
+   + Channel.getTopic()
+   + Channel.getUsers()
+   + Channel.getMode()
+   + Channel.isOp()
+   + User.getNick()
+   + User.getIdent()
+   + User.getDesc()
+   + User.getHost()
+   + User.isAway()
+   + User.getAwayMessage()
+   + User.whois()
+   + Channel[] User.getChannels()
+   + IRC.join(channel)
+   + IRC.part(channel, message)
+   + IRC.quit(message)
+   + IRC.action(channel, message)
+   + IRC.topic(channel, topic)
+
+Release 2:
+ * Shared module support
+ * Log module
+ * Statistics module
